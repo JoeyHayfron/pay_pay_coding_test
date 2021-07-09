@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+    <TextView
+        android:id="@+id/ratesCurrency"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:text="USD"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"/>
+    <TextView
+        android:id="@+id/ratesAmount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="1.00"
+        android:padding="5dp"/>
+</LinearLayout>
